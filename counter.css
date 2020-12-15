@@ -1,0 +1,61 @@
+body {
+    background-image: url("marble.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    position: relative;
+    width: 500px;
+    height: 700px;
+    margin: 25px auto auto auto;
+    background-color: rgb(216, 204, 204);
+    border: 2px solid lightblue;
+    font-family: sans-serif;
+}
+.inside {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: lightblue;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.display {
+    background-color: tan;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto 50px auto;
+    padding: 100px;
+    font-size: 75px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 2px lightgrey;
+    
+}
+.add {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 25px;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+
+}
+.add:hover {
+    width: 110px;
+}
+.subtract {
+    width: 100px;
+    height: 30px;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+}
+.subtract:hover {
+    width: 110px;
+}
+
